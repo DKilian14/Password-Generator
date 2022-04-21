@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Password Generator</title>
+    </head>
+    <body>
+      <h1 id='white-title'>Generate a</h1>
+      <h1 id='green-title'>Random Password</h1>
+      <label id="length-label"># of characters in password (20 or under)</label>
+      <input id="passLength-el" type="number"></input><br>
+      <button id="Generate-el" onclick="passwordGen()">GENERATE PASSWORDS</button>
+      <hr>
+      <p>Select Password below to copy to clipboard</p>
+      <div id="passSelect-el">
+        <button type="text" onclick="copyPass('pass1-el')" class="genpass" id="pass1-el">1</button>
+        <button type="text" onclick="copyPass('pass2-el')" class="genpass" id="pass2-el">2</button>
+        <button type="text" onclick="copyPass('pass3-el')" class="genpass" id="pass3-el">3</button>
+        <button type="text" onclick="copyPass('pass4-el')" class="genpass" id="pass4-el">4</button>
+      </div>
+      <p id="pass-confirm"></p>
+      <p id="pass-display"></p>
+        <script src="index.js"></script>
+    </body>
+</html>
