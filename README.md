@@ -13,6 +13,4 @@ This application will generate random passwords for the user to copy and use.
 * Visit [http://localhost:8000](http://localhost:8000)
 
 ### Credits
-This invoice was created as a DIY project after completing the Scrimba Introductory Javascript course. The page can be viewed here:
-
-https://scrimba.com/learn/learnjavascript/module-34-solo-project-password-generator-coa6a4d1595f9f905934f09f5
+This invoice was created as a DIY project after completing the [Scrimba Introductory Javascript course](https://scrimba.com/learn/learnjavascript/module-34-solo-project-password-generator-coa6a4d1595f9f905934f09f5).
